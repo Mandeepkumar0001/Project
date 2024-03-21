@@ -38,3 +38,10 @@
 .invert{
     filter: invert(1);
 }
+.footer{
+    display: flex;
+    font-size: 10px;
+}
+.footer a{
+    color: gray;
+}
