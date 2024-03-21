@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
 }
-body{
+/* body{
     background-color: black;
     color:white;
-}
+} */
 .left{
     width: 25vw;
 }
@@ -20,6 +20,21 @@ body{
     padding-top:14px;
     font-weight: bold;
 }
+.heading{
+    display: flex;
+    width:100%;
+    gap: 10px;
+    padding-top:14px;
+    padding: 10px 3px;
+    align-items: center;
+}
+.heading img{
+    width:20px;
+}
+.heading h2{
+    font-size:medium;
+}
+
 .invert{
     filter: invert(1);
 }
