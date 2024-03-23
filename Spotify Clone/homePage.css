@@ -67,7 +67,7 @@
     padding: 16px;
 }
 .cardContainer{
-    margin: 10px;
+    margin: 20px;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -76,7 +76,7 @@
     width: 200px;
     padding: 10px;
     border-radius: 5px;
-    border-color: #252525;
+    border-color: rgb(25,25,25);
 }
 .card > *{
     padding-top: 10px;
@@ -84,4 +84,6 @@
 .card img{
     width: 100%;
     object-fit: contain;
+}
+.play{
 }
