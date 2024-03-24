@@ -151,8 +151,9 @@
     position: absolute;
     bottom: 0;
     background-color: #21462f;
-    width: 100%;
+    width: 90%;
     padding: 12px;
+    border-radius: 5px;
 }
 .songbotton{
     display: flex;
