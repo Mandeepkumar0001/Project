@@ -12,6 +12,7 @@
 .right{
     width: 75vw;
     margin: 5px 0px;
+    position: relative;
 }
 .home ul li{
     display: flex;
@@ -145,4 +146,16 @@
     width: 112px;
     height: 50px;
     border-radius: 21px;
+}
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: #21462f;
+    width: 100%;
+    padding: 12px;
+}
+.songbotton{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
